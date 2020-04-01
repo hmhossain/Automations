@@ -31,7 +31,7 @@ public class Magento {
 		driver.findElement(By.id("password")).sendKeys("welcome");
 		driver.findElement(By.name("password_confirmation")).sendKeys("welcome");
 		if(!driver.findElement(By.id("agree_terms")).isSelected()) {
-			driver.findElement(By.id("agree_terms")).click();
+		driver.findElement(By.id("agree_terms")).click();
 		
 		}
 		driver.quit();		
